@@ -482,4 +482,9 @@ Your sources have been sync'd successfully.
   <!-- Manifests are not standard projects. -->
   <project path="manifest" name="chromiumos/manifest" />
 
+  <!-- libcamera overlay -->
+  <project path="src/third_party/chromiumos-overlay/media-libs/libcamera"
+           name="libcamera/chromiumos/overlay"
+	   remote="libcamera" />
+
 </manifest>

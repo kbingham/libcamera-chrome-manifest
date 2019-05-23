@@ -9,4 +9,6 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com" />
+  <remote  name="libcamera"
+           fetch="ssh://git-libcamera-org@git.libcamera.org" />
 </manifest>
